@@ -1,0 +1,357 @@
+EESchema Schematic File Version 4
+LIBS:smartlock-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 8
+Title "Antenna matching"
+Date "2019-12-01"
+Rev "A0"
+Comp ""
+Comment1 ""
+Comment2 "https://opensource.org/licenses/BSD-3-Clause"
+Comment3 "License: BSD 3-clause"
+Comment4 "Author: Marek Vitula"
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5DBDA120
+P 4050 4400
+AR Path="/5DBDA120" Ref="C?"  Part="1" 
+AR Path="/5DBD3447/5DBDA120" Ref="C10"  Part="1" 
+F 0 "C10" H 4165 4446 50  0000 L CNN
+F 1 "1n" H 4165 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 4250 50  0001 C CNN
+F 3 "~" H 4050 4400 50  0001 C CNN
+F 4 "C0805C102J5GAC7210" H 4050 4400 50  0001 C CNN "manf#"
+	1    4050 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBDA12C
+P 6000 3600
+AR Path="/5DBDA12C" Ref="C?"  Part="1" 
+AR Path="/5DBD3447/5DBDA12C" Ref="C13"  Part="1" 
+F 0 "C13" V 6252 3600 50  0000 C CNN
+F 1 "30p/50V" V 6161 3600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6038 3450 50  0001 C CNN
+F 3 "~" H 6000 3600 50  0001 C CNN
+F 4 "08055A300GAT2A" V 6000 3600 50  0001 C CNN "manf#"
+	1    6000 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBDA132
+P 6000 4300
+AR Path="/5DBDA132" Ref="C?"  Part="1" 
+AR Path="/5DBD3447/5DBDA132" Ref="C14"  Part="1" 
+F 0 "C14" V 5700 4300 50  0000 C CNN
+F 1 "30p/50V" V 5800 4300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6038 4150 50  0001 C CNN
+F 3 "~" H 6000 4300 50  0001 C CNN
+F 4 "08055A300GAT2A" V 6000 4300 50  0001 C CNN "manf#"
+	1    6000 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBDA13E
+P 5450 3750
+AR Path="/5DBDA13E" Ref="C?"  Part="1" 
+AR Path="/5DBD3447/5DBDA13E" Ref="C11"  Part="1" 
+F 0 "C11" H 5565 3796 50  0000 L CNN
+F 1 "250p/16V" H 5565 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5488 3600 50  0001 C CNN
+F 3 "~" H 5450 3750 50  0001 C CNN
+F 4 "08055A251JAT2A" H 5450 3750 50  0001 C CNN "manf#"
+	1    5450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBDA144
+P 5450 4100
+AR Path="/5DBDA144" Ref="C?"  Part="1" 
+AR Path="/5DBD3447/5DBDA144" Ref="C12"  Part="1" 
+F 0 "C12" H 5565 4146 50  0000 L CNN
+F 1 "250p/16V" H 5565 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5488 3950 50  0001 C CNN
+F 3 "~" H 5450 4100 50  0001 C CNN
+F 4 "08055A251JAT2A" H 5450 4100 50  0001 C CNN "manf#"
+	1    5450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5DBDA14A
+P 4950 3600
+AR Path="/5DBDA14A" Ref="L?"  Part="1" 
+AR Path="/5DBD3447/5DBDA14A" Ref="L1"  Part="1" 
+F 0 "L1" V 5140 3600 50  0000 C CNN
+F 1 "470n" V 5049 3600 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 4950 3600 50  0001 C CNN
+F 3 "~" H 4950 3600 50  0001 C CNN
+F 4 "LQW21HNR47J00L " V 4950 3600 50  0001 C CNN "manf#"
+	1    4950 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5DBDA150
+P 4950 4300
+AR Path="/5DBDA150" Ref="L?"  Part="1" 
+AR Path="/5DBD3447/5DBDA150" Ref="L2"  Part="1" 
+F 0 "L2" V 5140 4300 50  0000 C CNN
+F 1 "470n" V 5049 4300 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 4950 4300 50  0001 C CNN
+F 3 "~" H 4950 4300 50  0001 C CNN
+F 4 "LQW21HNR47J00L " V 4950 4300 50  0001 C CNN "manf#"
+	1    4950 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DBDA156
+P 4800 3000
+AR Path="/5DBDA156" Ref="R?"  Part="1" 
+AR Path="/5DBD3447/5DBDA156" Ref="R1"  Part="1" 
+F 0 "R1" V 5007 3000 50  0000 C CNN
+F 1 "1k" V 4916 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4730 3000 50  0001 C CNN
+F 3 "~" H 4800 3000 50  0001 C CNN
+F 4 "RT0805FRE071KL" V 4800 3000 50  0001 C CNN "manf#"
+	1    4800 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DBDA15C
+P 4800 5000
+AR Path="/5DBDA15C" Ref="R?"  Part="1" 
+AR Path="/5DBD3447/5DBDA15C" Ref="R2"  Part="1" 
+F 0 "R2" V 5007 5000 50  0000 C CNN
+F 1 "1k" V 4916 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4730 5000 50  0001 C CNN
+F 3 "~" H 4800 5000 50  0001 C CNN
+F 4 "RT0805FRE071KL" V 4800 5000 50  0001 C CNN "manf#"
+	1    4800 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DBDA162
+P 7300 2950
+AR Path="/5DBDA162" Ref="R?"  Part="1" 
+AR Path="/5DBD3447/5DBDA162" Ref="R3"  Part="1" 
+F 0 "R3" V 7507 2950 50  0000 C CNN
+F 1 "2.4R" V 7416 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7230 2950 50  0001 C CNN
+F 3 "~" H 7300 2950 50  0001 C CNN
+F 4 "ESR10EZPF2R40" V 7300 2950 50  0001 C CNN "manf#"
+	1    7300 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DBDA168
+P 7350 5000
+AR Path="/5DBDA168" Ref="R?"  Part="1" 
+AR Path="/5DBD3447/5DBDA168" Ref="R4"  Part="1" 
+F 0 "R4" V 7557 5000 50  0000 C CNN
+F 1 "2.4R" V 7466 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7280 5000 50  0001 C CNN
+F 3 "~" H 7350 5000 50  0001 C CNN
+F 4 "ESR10EZPF2R40" V 7350 5000 50  0001 C CNN "manf#"
+	1    7350 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 4550 4050 5000
+Wire Wire Line
+	5450 4300 5450 4250
+Wire Wire Line
+	5100 4300 5450 4300
+Wire Wire Line
+	5100 3600 5450 3600
+Wire Wire Line
+	5450 3900 5450 3950
+Connection ~ 5450 3600
+Connection ~ 5450 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5DBDA17E
+P 5150 3900
+AR Path="/5DBDA17E" Ref="#PWR?"  Part="1" 
+AR Path="/5DBD3447/5DBDA17E" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 5150 3650 50  0001 C CNN
+F 1 "GND" H 5155 3727 50  0000 C CNN
+F 2 "" H 5150 3900 50  0001 C CNN
+F 3 "" H 5150 3900 50  0001 C CNN
+	1    5150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3900 5450 3900
+Connection ~ 5450 3900
+Wire Wire Line
+	5450 4300 5850 4300
+Wire Wire Line
+	5450 3600 5850 3600
+$Comp
+L Device:C C?
+U 1 1 5DBDA188
+P 6300 3750
+AR Path="/5DBDA188" Ref="C?"  Part="1" 
+AR Path="/5DBD3447/5DBDA188" Ref="C15"  Part="1" 
+F 0 "C15" H 6415 3796 50  0000 L CNN
+F 1 "150p/50V" H 6415 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6338 3600 50  0001 C CNN
+F 3 "~" H 6300 3750 50  0001 C CNN
+F 4 "08055A151FAT2A" H 6300 3750 50  0001 C CNN "manf#"
+	1    6300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DBDA18E
+P 6300 4100
+AR Path="/5DBDA18E" Ref="C?"  Part="1" 
+AR Path="/5DBD3447/5DBDA18E" Ref="C16"  Part="1" 
+F 0 "C16" H 6415 4146 50  0000 L CNN
+F 1 "150p/50V" H 6415 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6338 3950 50  0001 C CNN
+F 3 "~" H 6300 4100 50  0001 C CNN
+F 4 "08055A151FAT2A" H 6300 4100 50  0001 C CNN "manf#"
+	1    6300 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4300 6300 4250
+Wire Wire Line
+	6300 3900 6300 3950
+Connection ~ 6300 3900
+Wire Wire Line
+	6300 3600 6150 3600
+Wire Wire Line
+	6300 4300 6150 4300
+Connection ~ 6300 3600
+Connection ~ 6300 4300
+Wire Wire Line
+	4950 3000 5450 3000
+Wire Wire Line
+	5450 3000 5450 3600
+Wire Wire Line
+	4950 5000 5450 5000
+Wire Wire Line
+	5450 5000 5450 4300
+Wire Wire Line
+	5450 3900 6300 3900
+$Comp
+L Device:Antenna_Loop AE?
+U 1 1 5DBDA1A5
+P 7950 3900
+AR Path="/5DBDA1A5" Ref="AE?"  Part="1" 
+AR Path="/5DBD3447/5DBDA1A5" Ref="AE1"  Part="1" 
+F 0 "AE1" V 7954 4080 50  0000 L CNN
+F 1 "Antenna" V 8045 4080 50  0000 L CNN
+F 2 "Antenna:nfc_40_75" H 7950 3900 50  0001 C CNN
+F 3 "~" H 7950 3900 50  0001 C CNN
+F 4 " 206764-0100" V 7950 3900 50  0001 C CNN "manf#"
+	1    7950 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 4250 4050 4250
+Text HLabel 3450 4250 0    50   Input ~ 0
+RXN
+Text HLabel 4800 3600 0    50   Input ~ 0
+TX1
+Text HLabel 4800 4300 0    50   Input ~ 0
+TX2
+Wire Wire Line
+	4050 5000 4650 5000
+Wire Wire Line
+	4050 3000 4650 3000
+Wire Wire Line
+	4050 3000 4050 3450
+Text HLabel 3450 3750 0    50   Input ~ 0
+RXP
+$Comp
+L Device:C C?
+U 1 1 5DBDA11A
+P 4050 3600
+AR Path="/5DBDA11A" Ref="C?"  Part="1" 
+AR Path="/5DBD3447/5DBDA11A" Ref="C9"  Part="1" 
+F 0 "C9" H 4165 3646 50  0000 L CNN
+F 1 "1n" H 4165 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 3450 50  0001 C CNN
+F 3 "~" H 4050 3600 50  0001 C CNN
+F 4 "C0805C102J5GAC7210" H 4050 3600 50  0001 C CNN "manf#"
+	1    4050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3750 4050 3750
+$Comp
+L Device:C C?
+U 1 1 5E06AA6B
+P 6950 3750
+AR Path="/5E06AA6B" Ref="C?"  Part="1" 
+AR Path="/5DBD3447/5E06AA6B" Ref="C38"  Part="1" 
+F 0 "C38" H 7065 3796 50  0000 L CNN
+F 1 "5p/50V" H 7065 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6988 3600 50  0001 C CNN
+F 3 "~" H 6950 3750 50  0001 C CNN
+F 4 "08055A5R0CAT2A" H 6950 3750 50  0001 C CNN "manf#"
+	1    6950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5E06AF5C
+P 6950 4100
+AR Path="/5E06AF5C" Ref="C?"  Part="1" 
+AR Path="/5DBD3447/5E06AF5C" Ref="C39"  Part="1" 
+F 0 "C39" H 7065 4146 50  0000 L CNN
+F 1 "5p/50V" H 7065 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6988 3950 50  0001 C CNN
+F 3 "~" H 6950 4100 50  0001 C CNN
+F 4 "08055A5R0CAT2A" H 6950 4100 50  0001 C CNN "manf#"
+	1    6950 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3900 6950 3900
+Wire Wire Line
+	6950 3950 6950 3900
+Connection ~ 6950 3900
+Wire Wire Line
+	7500 5000 7750 5000
+Wire Wire Line
+	7750 4000 7750 5000
+Wire Wire Line
+	7450 2950 7750 2950
+Wire Wire Line
+	7750 2950 7750 3900
+Wire Wire Line
+	6950 2950 6950 3600
+Wire Wire Line
+	6950 2950 7150 2950
+Wire Wire Line
+	6950 4250 6950 5000
+Wire Wire Line
+	6950 5000 7200 5000
+Wire Wire Line
+	6300 5000 6950 5000
+Wire Wire Line
+	6300 4300 6300 5000
+Connection ~ 6950 5000
+Wire Wire Line
+	6300 2950 6950 2950
+Wire Wire Line
+	6300 2950 6300 3600
+Connection ~ 6950 2950
+$EndSCHEMATC

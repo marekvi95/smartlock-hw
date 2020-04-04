@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INNOCOMM-SN10-11
+D InnoComm SN10-11 Sigfox module
+K Sigfox
+F https://www.innocomm.com/product_inner.aspx?num=123
+$ENDCMP
+#
+#End Doc Library

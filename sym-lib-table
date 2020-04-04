@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name InnoComm)(type Legacy)(uri ${KIPRJMOD}/kicad/sym_lib/innocomm.lib)(options "")(descr ""))
+  (lib (name Diplomka_lib)(type Legacy)(uri ${KIPRJMOD}/kicad/sym_lib/diplomka_lib.lib)(options "")(descr ""))
+  (lib (name PN7120)(type Legacy)(uri ${KIPRJMOD}/kicad/sym_lib/PN7120.lib)(options "")(descr ""))
+  (lib (name KLIB_Battery)(type Legacy)(uri C:/Users/nxf46245/Documents/github/diplomka/kicad/sym_lib/KLIB_Battery.lib)(options "")(descr ""))
+  (lib (name smartlock-rescue)(type Legacy)(uri ${KIPRJMOD}/smartlock-rescue.lib)(options "")(descr ""))
+)

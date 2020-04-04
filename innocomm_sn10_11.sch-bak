@@ -1,0 +1,308 @@
+EESchema Schematic File Version 5
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 8
+Title "Sigfox module"
+Date "2019-12-01"
+Rev "A0"
+Comp ""
+Comment1 ""
+Comment2 "https://opensource.org/licenses/BSD-3-Clause"
+Comment3 "License: BSD 3-clause"
+Comment4 "Author: Marek Vitula"
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+$Comp
+L InnoComm:INNOCOMM-SN10-11 U1
+U 1 1 5DB37471
+P 6400 3450
+F 0 "U1" H 7450 3300 50  0000 L CNN
+F 1 "INNOCOMM-SN10-11" H 7450 3200 50  0000 L CNN
+F 2 "Antenna:InnoCommSN10-11" H 5950 3450 50  0001 C CNN
+F 3 "https://www.innocomm.com/product_inner.aspx?num=123" H 5950 3450 50  0001 C CNN
+F 4 "SN10-11-INNO" H 6400 3450 50  0001 C CNN "manf#"
+F 5 "10:EUR3.57; 25:EUR3.03; 100:EUR2.81" H 6400 3450 50  0001 C CNN "kicost:pricing"
+F 6 "https://www.texim-europe.com/product/SN10-11-INNO" H 6400 3450 50  0001 C CNN "kicost:link"
+	1    6400 3450
+	1    0    0    -1  
+$EndComp
+Text HLabel 4150 3350 0    50   Input ~ 0
+RF_SPI_SDI
+Text HLabel 4150 3650 0    50   Input ~ 0
+RF_SPI_CS
+Text HLabel 4150 3150 0    50   Input ~ 0
+~RF_RST
+Text HLabel 4150 3450 0    50   Input ~ 0
+RF_SPI_SDO
+Text HLabel 4150 3550 0    50   Input ~ 0
+RF_SPI_SCLK
+$Comp
+L power:GND #PWR04
+U 1 1 5DB3DBA0
+P 6400 4600
+F 0 "#PWR04" H 6400 4350 50  0001 C CNN
+F 1 "GND" H 6405 4427 50  0000 C CNN
+F 2 "" H 6400 4600 50  0001 C CNN
+F 3 "" H 6400 4600 50  0001 C CNN
+	1    6400 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4450 7000 4500
+Wire Wire Line
+	7000 4500 6900 4500
+Wire Wire Line
+	6400 4500 6400 4600
+Wire Wire Line
+	5800 4450 5800 4500
+Wire Wire Line
+	5800 4500 5900 4500
+Connection ~ 6400 4500
+Wire Wire Line
+	6900 4450 6900 4500
+Connection ~ 6900 4500
+Wire Wire Line
+	6900 4500 6800 4500
+Wire Wire Line
+	6800 4450 6800 4500
+Connection ~ 6800 4500
+Wire Wire Line
+	6800 4500 6700 4500
+Wire Wire Line
+	6700 4450 6700 4500
+Connection ~ 6700 4500
+Wire Wire Line
+	6700 4500 6600 4500
+Wire Wire Line
+	6600 4450 6600 4500
+Connection ~ 6600 4500
+Wire Wire Line
+	6600 4500 6500 4500
+Wire Wire Line
+	6500 4450 6500 4500
+Connection ~ 6500 4500
+Wire Wire Line
+	6500 4500 6400 4500
+Wire Wire Line
+	6300 4450 6300 4500
+Connection ~ 6300 4500
+Wire Wire Line
+	6300 4500 6400 4500
+Wire Wire Line
+	6200 4450 6200 4500
+Connection ~ 6200 4500
+Wire Wire Line
+	6200 4500 6300 4500
+Wire Wire Line
+	6100 4450 6100 4500
+Connection ~ 6100 4500
+Wire Wire Line
+	6100 4500 6200 4500
+Wire Wire Line
+	6000 4450 6000 4500
+Connection ~ 6000 4500
+Wire Wire Line
+	6000 4500 6100 4500
+Wire Wire Line
+	5900 4450 5900 4500
+Connection ~ 5900 4500
+Wire Wire Line
+	5900 4500 6000 4500
+Text HLabel 4150 3850 0    50   Input ~ 0
+RF_SPI_AK
+Wire Wire Line
+	7400 3150 7700 3150
+Wire Wire Line
+	6400 4450 6400 4500
+$Comp
+L power:+3V0 #PWR03
+U 1 1 5DD38B00
+P 6400 2550
+F 0 "#PWR03" H 6400 2400 50  0001 C CNN
+F 1 "+3V0" H 6415 2723 50  0000 C CNN
+F 2 "" H 6400 2550 50  0001 C CNN
+F 3 "" H 6400 2550 50  0001 C CNN
+	1    6400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V0 #PWR01
+U 1 1 5DD56233
+P 2600 3050
+F 0 "#PWR01" H 2600 2900 50  0001 C CNN
+F 1 "+3V0" H 2615 3223 50  0000 C CNN
+F 2 "" H 2600 3050 50  0001 C CNN
+F 3 "" H 2600 3050 50  0001 C CNN
+	1    2600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5DD56C99
+P 2150 3350
+F 0 "C1" H 2265 3396 50  0000 L CNN
+F 1 "33p" H 2265 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2188 3200 50  0001 C CNN
+F 3 "~" H 2150 3350 50  0001 C CNN
+F 4 "C0805C330K5HACAUTO" H 2150 3350 50  0001 C CNN "manf#"
+	1    2150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3050 2600 3100
+Wire Wire Line
+	2600 3100 2150 3100
+Wire Wire Line
+	2150 3100 2150 3200
+Connection ~ 2600 3100
+Wire Wire Line
+	2600 3100 2600 3200
+$Comp
+L power:GND #PWR02
+U 1 1 5DD57941
+P 2600 3800
+F 0 "#PWR02" H 2600 3550 50  0001 C CNN
+F 1 "GND" H 2605 3627 50  0000 C CNN
+F 2 "" H 2600 3800 50  0001 C CNN
+F 3 "" H 2600 3800 50  0001 C CNN
+	1    2600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3500 2600 3600
+Wire Wire Line
+	2150 3500 2150 3600
+Wire Wire Line
+	2150 3600 2600 3600
+Connection ~ 2600 3600
+Wire Wire Line
+	2600 3600 2600 3800
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5DD608E3
+P 7900 3150
+F 0 "J1" H 8000 3125 50  0000 L CNN
+F 1 "Hirose U.FL" H 8000 3034 50  0000 L CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 7900 3150 50  0001 C CNN
+F 3 " ~" H 7900 3150 50  0001 C CNN
+F 4 "U.FL-R-SMT-1(10)" H 7900 3150 50  0001 C CNN "manf#"
+	1    7900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5DD62D80
+P 7900 3350
+F 0 "#PWR05" H 7900 3100 50  0001 C CNN
+F 1 "GND" H 7905 3177 50  0000 C CNN
+F 2 "" H 7900 3350 50  0001 C CNN
+F 3 "" H 7900 3350 50  0001 C CNN
+	1    7900 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3150 5400 3150
+Wire Wire Line
+	4150 3350 4250 3350
+Wire Wire Line
+	4150 3450 4450 3450
+Wire Wire Line
+	4150 3850 5050 3850
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5DDD4088
+P 4850 3650
+F 0 "TP4" H 5050 3800 50  0000 R CNN
+F 1 "CS1_TP" V 4850 4500 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 5050 3650 50  0001 C CNN
+F 3 "~" H 5050 3650 50  0001 C CNN
+F 4 "1" H 4850 3650 50  0001 C CNN "DNP"
+	1    4850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5DDD52F6
+P 4650 3550
+F 0 "TP3" H 4850 3700 50  0000 R CNN
+F 1 "SCLK1_TP" V 4650 4400 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 4850 3550 50  0001 C CNN
+F 3 "~" H 4850 3550 50  0001 C CNN
+F 4 "1" H 4650 3550 50  0001 C CNN "DNP"
+	1    4650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5DDD63E3
+P 4250 3350
+F 0 "TP1" H 4300 3450 50  0000 L CNN
+F 1 "SDI1_TP" V 4250 3650 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 4450 3350 50  0001 C CNN
+F 3 "~" H 4450 3350 50  0001 C CNN
+F 4 "1" H 4250 3350 50  0001 C CNN "DNP"
+	1    4250 3350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4250 3350
+Wire Wire Line
+	4250 3350 5400 3350
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5DDD6F6B
+P 4450 3450
+F 0 "TP2" H 4500 3600 50  0000 L CNN
+F 1 "SDO1_TP" V 4450 3850 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 4650 3450 50  0001 C CNN
+F 3 "~" H 4650 3450 50  0001 C CNN
+F 4 "1" H 4450 3450 50  0001 C CNN "DNP"
+	1    4450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5DDD7A66
+P 5050 3850
+F 0 "TP5" H 5250 3900 50  0000 R CNN
+F 1 "AK1_TP" V 5050 4900 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile" H 5250 3850 50  0001 C CNN
+F 3 "~" H 5250 3850 50  0001 C CNN
+F 4 "1" H 5050 3850 50  0001 C CNN "DNP"
+	1    5050 3850
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 3450
+Wire Wire Line
+	4450 3450 5400 3450
+Connection ~ 4650 3550
+Wire Wire Line
+	4650 3550 5400 3550
+Wire Wire Line
+	4150 3550 4650 3550
+Wire Wire Line
+	4150 3650 4850 3650
+Connection ~ 4850 3650
+Wire Wire Line
+	4850 3650 5400 3650
+Connection ~ 5050 3850
+Wire Wire Line
+	5050 3850 5400 3850
+$Comp
+L Device:CP C2
+U 1 1 5DE6B85B
+P 2600 3350
+F 0 "C2" H 2718 3396 50  0000 L CNN
+F 1 "47u/10V" H 2718 3305 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B" H 2638 3200 50  0001 C CNN
+F 3 "~" H 2600 3350 50  0001 C CNN
+F 4 "TPSB476M010T0250" H 2600 3350 50  0001 C CNN "manf#"
+	1    2600 3350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

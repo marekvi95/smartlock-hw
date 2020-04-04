@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP5300
+D 50 mA/500 mA, High Efficiency, Ultralow Power Step-Down Regulator
+K Step down regulator ultralow 500 mA
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5300.pdf
+$ENDCMP
+#
+$CMP K32L2B21VLH0A
+D Kinetis KL32L2B series, 48-MHz/32-bit ARM Cortex-M0+, 128kB flash, 32 kB SRAM, USB FS Device (xtal-less), Segment LCD, FlexIO, LQFP-64
+K Kinetis KL32L2 ARM Cortex M0+
+F https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/general-purpose-mcus/k32-l-series-cortex-m4-m0-plus/k32-l2-ultra-low-power-highly-integrated-mcu:K32-L2?tab=Documentation_Tab
+$ENDCMP
+#
+$CMP MPC17511EP
+D 1.0 A 6.8 V H-Bridge Motor Driver IC
+K half bridge driver
+F https://www.nxp.com/docs/en/data-sheet/MPC17511.pdf
+$ENDCMP
+#
+$CMP MPC17531ATEJ
+D 700 mA dual H-Bridge motor driver with 3.0 V compatible logic I/O
+K dual H-bridge motor driver
+F https://www.nxp.com/docs/en/data-sheet/MPC17531A.pdf
+$ENDCMP
+#
+$CMP MPC17C724
+D 0.4 A Dual H-Bridge Motor Driver IC
+K H-bridge motor driver
+F https://www.nxp.com/docs/en/data-sheet/MPC17C724.pdf
+$ENDCMP
+#
+$CMP TPS78330
+D Ultralow Quiescent Current 150mA LDO, 3.0V fixed output voltage, SOT-23-5
+K linear low dropout Regulator ultralow quiescent iq
+F http://www.ti.com/lit/ds/symlink/tps783.pdf
+$ENDCMP
+#
+#End Doc Library
